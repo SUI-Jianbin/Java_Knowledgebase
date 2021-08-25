@@ -22,6 +22,12 @@ public class Day1 {
         course1.cTeacher = "James";
         System.out.println(course1.cName);
         System.gc();
+
+        Staff staff1 = new Staff();
+        staff1.SayHello();
+        Teacher teacher1 = new Teacher();
+        teacher1.SayHello();;
+        teacher1.Teach();
     }
 
 }
