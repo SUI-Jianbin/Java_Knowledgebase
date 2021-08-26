@@ -28,6 +28,9 @@ public class Day1 {
         Teacher teacher1 = new Teacher();
         teacher1.SayHello();;
         teacher1.Teach();
+        Tutor tutor1 = new Tutor();
+        tutor1.SayHello();
+
     }
 
 }
